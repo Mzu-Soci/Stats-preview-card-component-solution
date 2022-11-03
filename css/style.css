@@ -31,42 +31,59 @@ p {
     border-radius: 10px;
 }
 
-
-
 @media only screen and (min-width: 600px) {
     .container {
+        max-width: 800px;
+    }
 
+    .image-container {
+        /* float: right; */
     }
 
     .image {
-        /* height: 275px; */
+        height: 357px;
         background-image: url(../images/image-header-desktop.jpg);
         background-size: cover;
-        /* border-radius: 10px 10px 0 0; */
+        max-width: 400px;
+        border-radius: 0 10px 10px 0;
     }
 
     .text-content {
+        max-width: 400px;
+        padding: 3.5em;
+    }
 
+    h1 {
+        margin: 0;
+    }
+
+    .main-paragraph {
+        font-size: small;
+        max-width: 85%;
     }
 
     .p {
+        
+    }
 
+    .stat-content {
+        display: flex;
+        margin-top: 3em;
     }
 
     .stat {
-
+        margin-right: 4.5em;
     }
 
     .stat-count {
-
+        font-size:larger;
     }
 
     .stat-count-head {
-
-    }
-
-    .text-content {
-
+        margin: 0;
+        margin-top: .1em;
+        font-size:x-small;
+        letter-spacing: .1em;
     }
 }
 
